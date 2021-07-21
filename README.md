@@ -86,14 +86,14 @@ this particular table.
 	
 5. First let's add some data to our database
 	
-	# Start velocity log service
+	#Start velocity log service
 	ros2 run hello_robot velocity_log_service
 	
 After executing this command velocity_log_service is ready to accept incoming commands.
 
 In order to add data to the database we need to use **velocity_log_client**
 
-	# Entering the data to database
+	#Entering the data to database
 	ros2 run hello_robot velocity_log_client 1 1
 	
 The command above creates a record in the **velocitylog** table and in
@@ -103,10 +103,10 @@ the **processing** table. The transmitted data is echoed by velocity_log_service
 6. Next we want to pass the commands to **turtlesim** and hopefully turtle starts moving
 following our commands.
 
-	# Start turtlesim
+	#Start turtlesim
 	ros2 run turtlesim turtlesim_node
 	
-	# Pass commands from db to turtle
+	#Pass commands from db to turtle
 	ros2 run command_publisher
 	
 	
