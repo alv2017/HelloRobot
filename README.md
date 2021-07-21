@@ -120,7 +120,7 @@ Open new terminal:
 
 ```
     #Pass commands from db to turtle
-    ros2 run command_publisher
+    ros2 run hello_robot command_publisher
 ```
 	
 	
