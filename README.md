@@ -78,7 +78,9 @@ this particular table.
 
 3. Build the project
 
-	colcon build
+```
+    colcon build
+```
 	
 4. Activate project workspace
 
