@@ -82,7 +82,9 @@ this particular table.
 	
 4. Activate project workspace
 
+```
 	source install/setup.bash
+```
 	
 5. First let's add some data to our database
 	
@@ -106,11 +108,11 @@ the **processing** table. The transmitted data is echoed by velocity_log_service
 following our commands.
 
 	#Start turtlesim
-	
+
 	ros2 run turtlesim turtlesim_node
-	
+
 	#Pass commands from db to turtle
-	
+
 	ros2 run command_publisher
 	
 	
